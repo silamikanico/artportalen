@@ -6,6 +6,7 @@ import pandas as pd
 import requests
 import urllib3
 
+import streamlit as st
 
 # ============================================================
 # KONFIGURATION
@@ -15,7 +16,7 @@ import urllib3
 # Ange den i PowerShell före körning:
 # $env:ARTPORTALEN_API_KEY = "DIN_API_NYCKEL"
 
-API_KEY = "6fbaf266e3e142449a0976329ef0736c"
+API_KEY = st.secrets["ARTPORTALEN_API_KEY"]
 
 EXCELFIL = (
     r"MånX.xlsx"
