@@ -18,8 +18,7 @@ import urllib3
 API_KEY = "6fbaf266e3e142449a0976329ef0736c"
 
 EXCELFIL = (
-    r"C:\Users\S38102\OneDrive - E.ON"
-    r"\Övrigt\Fåglar\Listor\MånX.xlsx"
+    r"MånX.xlsx"
 )
 
 API_URL = (
